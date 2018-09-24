@@ -4,5 +4,5 @@ def my_select(array)
   while i < array.length
 
   end
-
+  output
 end
