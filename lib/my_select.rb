@@ -2,7 +2,8 @@ def my_select(array)
   i = 0
   output = []
   while i < array.length
-    output.push(yield(array[i]))
+    if yield(array[i])
+      output.push(array[i])
     i += 1
   end
   output
